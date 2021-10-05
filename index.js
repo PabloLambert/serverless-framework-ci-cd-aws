@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', function (req, res) {
-    res.send('ok')
+    res.send('Conectarse!!')
   })
 app.get('/version', function (req, res) {
   res.send('Serverless ci/cd v2!')
